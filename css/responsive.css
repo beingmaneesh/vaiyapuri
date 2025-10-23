@@ -1478,7 +1478,10 @@ body {
 	/*=== Homepage-01 ===*/
 	.ihbox-section-one .ihbox-wrap{
 		padding: 70px 0px 70px 0px;
+		margin-bottom: 60px;
 	}
+
+	
 	.ihbox-section-one .ihbox-contant{
 		margin-top: 0px;
         margin-bottom: 0px;
@@ -2092,7 +2095,7 @@ body {
 		padding: 0px 15px 60px 15px;
 	}
 	.about-section-two .about-image{
-		padding: 100px 0px 0px 0px;
+		padding: 0 0px 0px 0px;
 		height: 450px;
 	}
 	.about-section-two .about-wrap{

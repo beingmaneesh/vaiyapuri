@@ -2264,11 +2264,11 @@
 	-webkit-box-orient: vertical;
 }
 .pbmit-service-style-3 .pbmit-service-desc {
-	overflow: hidden;
+	/* overflow: hidden;
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	line-clamp: 3;
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: vertical; */
 }
 .pbmit-service-style-3 .pbmit-service-desc p {
 	margin-bottom: 0;
