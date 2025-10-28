@@ -2427,3 +2427,12 @@ form .form-control::placeholder{
     height: calc(100vh - 90px);
 } 
 }
+
+@media (max-width: 768px){
+    .opacity-sm-100{
+        opacity: 1 !important;
+    }
+    .opacity-md-0{
+        opacity: 0 !important;
+    }
+}
