@@ -2397,9 +2397,9 @@ form .form-control::placeholder{
     width: 100%;
     object-fit: cover;
 }
-.banner  .rra {
+.banner .rra {
         position: absolute;
-    z-index: 99999;
+    z-index: 9;
     width: 300px;
     height: 300px;
     right: 30px;
