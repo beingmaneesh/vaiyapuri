@@ -2435,4 +2435,8 @@ form .form-control::placeholder{
     .opacity-md-0{
         opacity: 0 !important;
     }
+
+    .banner .rra{
+        opacity: 0;
+    }
 }
