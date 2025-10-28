@@ -2346,8 +2346,7 @@ label.error {
 form select{
     margin-bottom: 20px;
     height: 50px;
-    background-color: transparent;
-    border: 1px solid rgba(var(--pbmit-white-color-rgb), 0.3);
+    background-color: transparent; 
     padding: 10px 35px;
     border-radius: 50px;
     font-size: 14px;
@@ -2398,6 +2397,15 @@ form .form-control::placeholder{
     width: 100%;
     object-fit: cover;
 }
+.banner  .rra {
+        position: absolute;
+    z-index: 99999;
+    width: 300px;
+    height: 300px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .page-wrapper{
     overflow-y: hidden;
@@ -2406,6 +2414,11 @@ form .form-control::placeholder{
 .gp .pbmit-service-style-1 .pbmit-service-description p {
     margin: 0;
     min-height: auto ;
+}
+
+.pbmit-ihbox-contents h3{
+    font-size: 28px;
+    font-weight: 600;
 }
 
 @media (max-width: 1200px){

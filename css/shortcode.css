@@ -298,15 +298,15 @@
 }
 .pbmit-ihbox-style-4 .pbmit-ihbox-svg-wrapper,
 .pbmit-ihbox-style-4 .pbmit-ihbox-icon-wrapper{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 75px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
 	border-radius: 50px;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 40px;
 	margin: 0 auto;
 	color: var(--pbmit-global-color);
@@ -2951,6 +2951,7 @@
 }
 .pbmit-contact-info li:not(:last-child){
     padding: 0 15px 0 0;
+	 font-family: "Roboto", sans-serif;
 }
 .pbmit-contact-info li i {
     font-size: 15px;
