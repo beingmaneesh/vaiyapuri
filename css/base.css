@@ -1263,3 +1263,9 @@ body .pbmit-bg-color-light {
     object-fit: cover;
 
 }
+
+#bg-music{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}

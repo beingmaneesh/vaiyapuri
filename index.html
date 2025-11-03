@@ -41,6 +41,7 @@
 
 <body>
 
+
 	<!-- page wrapper -->
 	<div class="page-wrapper">
 
@@ -161,7 +162,7 @@
 		<!-- Header Main Area End Here -->
 
 	 <div class="page-content">
-		<div class="banner">
+		<div class="banner"  style="cursor: pointer;">
 
 
 			<video class="video-background" autoplay="" loop="" muted="" playsinline="">
@@ -178,7 +179,9 @@
 	</div>
 	<!-- page wrapper End -->
 
-
+<audio autoplay muted loop playsinline     id="bg-audio">
+  <source src="images/audio/background.mp3" type="audio/mp3">
+</audio>
 
 	<!-- Scroll To Top -->
 	<div class="pbmit-progress-wrap">
@@ -190,8 +193,7 @@
 
 	<!-- JS
 		============================================ -->
-	<!-- jQuery JS -->
-	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<!-- jQuery JS --> 
 	<script src="js/jquery.min.js"></script>
 	<!-- Popper JS -->
 	<script src="js/popper.min.js"></script>
@@ -227,6 +229,14 @@
 	<script src="js/theia-sticky-sidebar.js"></script>
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
+
+<script>
+window.addEventListener('click', () => {
+  const audio = document.getElementById('bg-audio');
+  audio.muted = false;
+  audio.play(); // <-- must explicitly play again after unmuting
+});
+</script>
 
 
 </body>
